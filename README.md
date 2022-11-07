@@ -1,9 +1,9 @@
 # services-monitor
 
 The project consists of 3 main parts: <br>
-Part A - Monitor mode that shows the services running on the computer at any given moment. The monitor also shows the services running at the given moment and also shows the changes that occurred at each point in time and exports this data into files we created.
-Part B - manual monitor mode that allows you to set 2 different time points and receive all the changes that occurred in the services between these time points.
-Part C - Encrypting our code classes against attackers.
+Part A - Monitor mode that shows the services running on the computer at any given moment. The monitor also shows the services running at the given moment and also shows the changes that occurred at each point in time and exports this data into files we created. <br>
+Part B - manual monitor mode that allows you to set 2 different time points and receive all the changes that occurred in the services between these time points. <br>
+Part C - Encrypting our code classes against attackers. 
 And in addition, alerts when unverified changes were made to the files we created.
 
 **Departments:**
