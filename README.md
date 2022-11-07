@@ -6,7 +6,7 @@ Part B - manual monitor mode that allows you to set 2 different time points and 
 Part C - Encrypting our code classes against attackers. 
 And in addition, alerts when unverified changes were made to the files we created.
 
-**Departments:**
+## Departments:
 Monitor.py - The program is mainly responsible for implementing part A.
 We used built-in functions for windows and linux to get information about all the services running in the background and put the list in the serviceList file, after that we made a comparison between adjacent time points by dict each time to see what changes were made between them and every time we found such a change We added it to the status_Log file
 
