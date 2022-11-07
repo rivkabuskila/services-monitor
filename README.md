@@ -9,11 +9,12 @@ And in addition, alerts when unverified changes were made to the files we create
 ## Departments:
 Monitor.py - The program is mainly responsible for implementing part A.
 We used built-in functions for windows and linux to get information about all the services running in the background and put the list in the serviceList file, after that we made a comparison between adjacent time points by dict each time to see what changes were made between them and every time we found such a change We added it to the status_Log file
-
+<br>
 manualMonitor.py - The class is mainly responsible for implementing part B.
 We opened the files we created in the monitor class and used their information to create a manual monitor. We created a new auxiliary file called date.txt which actually saves all the dates that appear in the serviceList file and in addition indicates in which line they are mentioned there so that we access the dates that the user has chosen and compare their positions in the serviceList file so that we can know about any changes made between them, along the way we transferred to dict the The services in both times and thus compared between them.
-
+<br>
 Gui.py - the department is responsible for designing the graphical user interface. We linked it to all parts of the project so that it is linked both to the normal monitor status part, to the manually managed monitor and to the defensive part and the attack alerts that pop up in the interface panel.
+<br>
 secureSystem.py- responsible for the part related to encrypting the code files against an external attacker. The only one who will be able to access them in an unencrypted way is the one who will hold the key to them, thus preventing the attacker from accessing them.
 
 ## run
