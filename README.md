@@ -18,7 +18,7 @@ We opened the files we created in the monitor class and used their information t
 **secureSystem.py**- responsible for the part related to encrypting the code files against an external attacker. The only one who will be able to access them in an unencrypted way is the one who will hold the key to them, thus preventing the attacker from accessing them.
 
 ## run
--run the gui.py file.
+- run the gui.py file.
 - Click on the "monitor" button in the panel that opens and define there the time that will pass between each check of the services and click on "ok".
 - After the monitor returns the information about the services and the changes made to them, you can also switch to manual mode and for this you have to press the "monitor" button and set a start and end time to check the changes between them and press "ok" to confirm.
 -To use our protection layer, you need to run the "secureSystem.py" class
